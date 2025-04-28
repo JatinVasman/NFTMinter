@@ -655,7 +655,7 @@ var abiJson = [
 document.addEventListener("DOMContentLoaded", function () {
   const web3 = new Web3(window.ethereum);
   const PINATA_JWT =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiI2MDE1YjE1ZC1iZTBmLTRjMjItYjBmYi0xNTA3ZTZhMTgyMzQiLCJlbWFpbCI6ImphdGludmFzbWFuMDRAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6IjI2ZTIzODM1OWU0ZjUzMDg2OTQxIiwic2NvcGVkS2V5U2VjcmV0IjoiZWQ1NTBjMzI5NzllN2QzODRhMzQzZDYxMDRhMGE2ZGJhZjQyOThjYzYzYWJhMDk0NTk2ZjQ3Y2U3M2NiNGIxNCIsImV4cCI6MTc3Njc2NjYyMX0.a222Sc2e167kAEsbiuXIzwxuev2G6Ey4nSQQkX9XOuE"; // <-- Replace this with your JWT
+    ""; // <-- Replace this with your JWT
 
   // Elements
   const connectWalletBtn = document.getElementById("connectWalletBtn");
@@ -815,7 +815,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Replace with your deployed contract address
 
-        const CONTRACT_ADDRESS = "0x072830D9C0CDD616800CdE14F9feF9145A4c8458";
+        const CONTRACT_ADDRESS = "";
 
         const web3 = new Web3(window.ethereum);
         const contract = new web3.eth.Contract(abiJson, CONTRACT_ADDRESS);
